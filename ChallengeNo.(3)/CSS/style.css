@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(207 207 207);
+}
+
+.container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.Card {
+    width: 160px;
+    height: auto;
+    border: 1px solid black;
+    border-radius:5px;
+    background-color: #fff;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-header img {
+    width: 90%;
+    border-radius: 4px;
+    margin: 10px 8px 0;
+    object-fit: cover;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    background-color:black;
+    color: #fff;
+    font-size: 8px;
+    padding: 7px 15px;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    box-shadow: -1px 8px 10px gray ;
+}
+
+.title {
+    display: block;
+    font-size: 12px;
+    margin: 22px auto 0;
+    text-align: center;
+}
+
+.desc {
+    font-size: 9px;
+    color: #7f8c9b;
+    text-align: center;
+}
+
+.special {
+    display: block;
+    text-align:center;
+}
+
+.card-details {
+    margin: 0 10px 10px 15px;
+}
+
+.card-footer {
+    font-size: 10px;
+    font-family: sans-serif ;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+}
+
+.fa-basket-shopping {
+    font-size: 8px !important;
+    border: 0.5px solid #7f8c9b;
+    border-radius: 20px;
+    padding: 2px;
+    position:relative;
+    left: 70px;
+}
